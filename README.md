@@ -90,14 +90,16 @@
   {"id": 20201, "name": "ApiRequestSent", "level": "Information", "source": "HttpRequestSender", "isException": false},
   {"id": 20202, "name": "AvailabilityResultReturned", "level": "Information", "source": "AvailabilityRequestExecutor", "isException": false},
   {"id": 20202, "name": "ValuationResultReturned", "level": "Information", "source": "", "isException": false}
-]```
+]
+```
 
 ## rakuten-connector
 
 ```json
 [
     {"id": 30201, "name": "UpdatingRawPropertyCodes", "level": "Information", "source": "AccommodationUpdater", "isException": false}
-]```
+]
+```
 
 ## nakijin
 
@@ -139,7 +141,8 @@
   
   {"id": 90500, "name": "SameAccommodationInOneSupplierError", "level": "Error", "source": "AccommodationMapper", "isException": false},
   {"id": 90501, "name": "EmptyCoordinatesInAccommodation", "level": "Error", "source": "AccommodationMapper", "isException": false}
-]```
+]
+```
 
 ## osaka
 
@@ -152,7 +155,8 @@
     {"id": 2005, "name": "CompleteUploadingLocations", "level": "Information", "source": "LocationsManagementService", "isException": false},
     {"id": 2006, "name": "UploadingError", "level": "Critical", "source": "LocationsManagementService", "isException": false},
     {"id": 2007, "name": "PredictionsQuery", "level": "Information", "source": "LocationsService", "isException": false}
-]```
+]
+```
 
 ## iwtx-connector
 
@@ -178,7 +182,8 @@
   {"id": 20091, "name": "GetHotelDetailsCodesMismatch", "level": "Error", "source": "HotelManager", "isException": false },
   {"id": 20092, "name": "GetEmptyCityCodeError", "level": "Error", "source": "HotelManager", "isException": false },
   {"id": 20100, "name": "SupplierDataProcessingError", "level": "Error", "source": "HotelManager", "isException": false }
-]```
+]
+```
 
 ## hiroshima
 
@@ -212,7 +217,8 @@
     "source": "ManagerRegistrationService",
     "isException": false
   }
-]```
+]
+```
 
 ## etg-connector
 
@@ -231,4 +237,5 @@
   {"id": 5029, "name": "BookingOrderResponseFailure", "level": "Error", "source": "BookingService", "isException": false},
   {"id": 5030, "name": "IncorrectBookingOrderReceived", "level": "Error", "source": "BookingService", "isException": false},
   {"id": 5031, "name": "BookingOrderExists", "level": "Error", "source": "BookingService", "isException": false}
- ]```
+ ]
+```
