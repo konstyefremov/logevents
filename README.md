@@ -3,7 +3,8 @@
 ```json
 [
     {"id": 80001, "name": "WideAvailabilitySearchError", "level": "Warning", "source": "WideAvailabilitySearchService", "isException": false}
-]```
+]
+```
 
 ## edo
 
@@ -74,7 +75,8 @@
     {"id": 1701, "name": "CounterpartyAccountAddedNotificationFailure", "level": "Error", "source": "CounterpartyBillingNotificationService", "isException": false},
     {"id": 1702, "name": "AgentRegistrationNotificationFailure", "level": "Error", "source": "InvitationService", "isException": false},
     {"id": 1703, "name": "ChildAgencyRegistrationNotificationFailure", "level": "Error", "source": "InvitationService", "isException": false}
-]```
+]
+```
 
 ## travelgatex-channel
 
