@@ -146,6 +146,17 @@
 ]
 ```
 
+```json
+[
+    {"id": 30001, "name": "RakutenRequestResult", "level": "Debug", "source": "RakutenShoppingClient", "isException": false},
+    {"id": 30100, "name": "ApiBadRequest", "level": "Warning", "source": "RakutenShoppingClient", "isException": false},
+    {"id": 30102, "name": "ApiRateExceeded", "level": "Warning", "source": "RakutenShoppingClient", "isException": false},
+    {"id": 30103, "name": "ApiAuthorizationFailure", "level": "Critical", "source": "RakutenShoppingClient", "isException": false},
+    {"id": 30104, "name": "ApiUnknownError", "level": "Critical", "source": "RakutenShoppingClient", "isException": false},
+    {"id": 30105, "name": "ApiResponseDeserializationException", "level": "Critical", "source": "RakutenShoppingClient", "isException": true}
+]
+```
+
 ## osaka
 
 ```json
@@ -242,4 +253,4 @@
  ]
 ```
 
-**Updated on: 4/23/2021 5:51:19 AM**
+**Updated on: 4/23/2021 6:38:07 AM**
