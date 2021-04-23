@@ -1,5 +1,6 @@
 ## nakijin
 
+### HappyTravel.Nakijin.Api/Infrastructure/Logging/LogEvents.json
 ```json
 [
   {"id": 90000, "name": "MappingAccommodationsStart", "level": "Information", "source": "AccommodationMapper", "isException": false}, 
@@ -45,6 +46,7 @@
 
 ## columbus-connector
 
+### HappyTravel.ColumbusConnector.Api/Infrastructure/Logging/LogEvents.json
 ```json
 [
     {"id": 80001, "name": "WideAvailabilitySearchError", "level": "Warning", "source": "WideAvailabilitySearchService", "isException": false}
@@ -53,6 +55,7 @@
 
 ## edo
 
+### Api/Infrastructure/Logging/LogEvents.json
 ```json
 [
     {"id": 1001, "name": "GeoCoderException", "level": "Error", "source": "GoogleGeoCoder", "isException": true},
@@ -125,6 +128,7 @@
 
 ## travelgatex-channel
 
+### HappyTravel.TravelgateXChannel.Api/Infrastructure/Logging/LogEvents.json
 ```json
 ﻿[
   {"id": 20001, "name": "ModelBindingFailure", "level": "Error", "source": "ClientRequestModelBinder", "isException": false},
@@ -140,12 +144,14 @@
 
 ## rakuten-connector
 
+### HappyTravel.RakutenConnector.Updater/Infrastructure/Logging/LogEvents.json
 ```json
 [
     {"id": 30201, "name": "UpdatingRawPropertyCodes", "level": "Information", "source": "AccommodationUpdater", "isException": false}
 ]
 ```
 
+### HappyTravel.RakutenConnector.Api/Infrastructure/Logging/LogEvents.json
 ```json
 [
     {"id": 30001, "name": "RakutenRequestResult", "level": "Debug", "source": "RakutenShoppingClient", "isException": false},
@@ -159,6 +165,7 @@
 
 ## osaka
 
+### HappyTravel.Osaka.Api/Infrastructure/Logging/LogEvents.json
 ```json
 [
     {"id": 2001, "name": "StartUploadingLocations", "level": "Information", "source": "LocationsManagementService", "isException": false},
@@ -173,6 +180,7 @@
 
 ## iwtx-connector
 
+### HappyTravel.IwtxConnector.Common/Extensions/LogEvents.json
 ```json
 [
   {"id": 20001, "name": "FillingDataException", "level": "Critical", "source": "", "isException": true},
@@ -200,6 +208,7 @@
 
 ## hiroshima
 
+### HappyTravel.Hiroshima.DirectManager/Infrastructure/Logging/LogEvents.json
 ```json
 ﻿[
   {
@@ -235,6 +244,7 @@
 
 ## etg-connector
 
+### HappyTravel.EtgConnector.Common/Infrastructure/Logging/LogEvents.json
 ```json
 ﻿[
   {"id": 5003, "name": "EtgWebhook", "level": "Information", "source": "BookingWebhookResponseService", "isException": false},
@@ -253,4 +263,4 @@
  ]
 ```
 
-**Updated on: 4/23/2021 6:38:07 AM**
+**Updated on: 4/23/2021 6:39:54 AM**
