@@ -1,3 +1,48 @@
+## nakijin
+
+```json
+[
+  {"id": 90000, "name": "MappingAccommodationsStart", "level": "Information", "source": "AccommodationMapper", "isException": false}, 
+  {"id": 90001, "name": "MappingAccommodationsOfSpecifiedCountryStart", "level": "Information", "source": "AccommodationMapper", "isException": false},
+  {"id": 90002, "name": "MappingAccommodationsFinish", "level": "Information", "source": "AccommodationMapper", "isException": false},
+  {"id": 90003, "name": "MappingAccommodationsOfSpecifiedCountryFinish", "level": "Information", "source": "AccommodationMapper", "isException": false},
+  {"id": 90004, "name": "MappingAccommodationsCancel", "level": "Information", "source": "AccommodationMapper", "isException": false},
+  {"id": 90005, "name": "MappingAccommodationsError", "level": "Error", "source": "AccommodationMapper", "isException": true},
+
+  {"id": 90100, "name": "MappingLocationsStart", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90101, "name": "MappingLocationsFinish", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90102, "name": "MappingLocationsCancel", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90103, "name": "MappingLocationsError", "level": "Error", "source": "LocationMapper", "isException": true},
+  {"id": 90104, "name": "MappingCountriesStart", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90105, "name": "MappingCountriesFinish", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90106, "name": "MappingLocalitiesStart", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90107, "name": "MappingLocalitiesFinish", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90108, "name": "MappingLocalitiesOfSpecifiedCountryStart", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90109, "name": "MappingLocalitiesOfSpecifiedCountryFinish", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90110, "name": "MappingLocalityZonesStart", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90110, "name": "MappingLocalityZonesFinish", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90111, "name": "MappingLocalityZonesOfSpecifiedCountryStart", "level": "Information", "source": "LocationMapper", "isException": false},
+  {"id": 90112, "name": "MappingLocalityZonesOfSpecifiedCountryFinish", "level": "Information", "source": "LocationMapper", "isException": false},
+
+  {"id": 90200, "name": "MergingAccommodationsDataStart", "level": "Information", "source": "AccommodationDataMerger", "isException": false},
+  {"id": 90201, "name": "MergingAccommodationsDataFinish", "level": "Information", "source": "AccommodationDataMerger", "isException": false},
+  {"id": 90202, "name": "MergingAccommodationsDataCancel", "level": "Information", "source": "AccommodationDataMerger", "isException": false},
+  {"id": 90203, "name": "MergingAccommodationsDataError", "level": "Error", "source": "AccommodationDataMerger", "isException": true},
+
+  {"id": 90300, "name": "PreloadingAccommodationsStart", "level": "Information", "source": "AccommodationPreloader", "isException": false},
+  {"id": 90301, "name": "PreloadingAccommodationsFinish", "level": "Information", "source": "AccommodationPreloader", "isException": false},
+  {"id": 90302, "name": "PreloadingAccommodationsCancel", "level": "Information", "source": "AccommodationPreloader", "isException": false},
+  {"id": 90303, "name": "PreloadingAccommodationsError", "level": "Error", "source": "AccommodationPreloader", "isException": true},
+
+  {"id": 90400, "name": "ConnectorClientError", "level": "Error", "source": "ConnectorClient", "isException": true},
+  
+  {"id": 90500, "name": "SameAccommodationInOneSupplierError", "level": "Error", "source": "AccommodationMapper", "isException": false},
+  {"id": 90501, "name": "EmptyCoordinatesInAccommodation", "level": "Error", "source": "AccommodationMapper", "isException": false},
+  
+  {"id": 90502, "name": "LocationsPublished", "level": "Information", "source": "PredictionsUpdateService", "isException": false}
+]
+```
+
 ## columbus-connector
 
 ```json
@@ -101,49 +146,6 @@
 ]
 ```
 
-## nakijin
-
-```json
-[
-  {"id": 90000, "name": "MappingAccommodationsStart", "level": "Information", "source": "AccommodationMapper", "isException": false}, 
-  {"id": 90001, "name": "MappingAccommodationsOfSpecifiedCountryStart", "level": "Information", "source": "AccommodationMapper", "isException": false},
-  {"id": 90002, "name": "MappingAccommodationsFinish", "level": "Information", "source": "AccommodationMapper", "isException": false},
-  {"id": 90003, "name": "MappingAccommodationsOfSpecifiedCountryFinish", "level": "Information", "source": "AccommodationMapper", "isException": false},
-  {"id": 90004, "name": "MappingAccommodationsCancel", "level": "Information", "source": "AccommodationMapper", "isException": false},
-  {"id": 90005, "name": "MappingAccommodationsError", "level": "Error", "source": "AccommodationMapper", "isException": true},
-
-  {"id": 90100, "name": "MappingLocationsStart", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90101, "name": "MappingLocationsFinish", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90102, "name": "MappingLocationsCancel", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90103, "name": "MappingLocationsError", "level": "Error", "source": "LocationMapper", "isException": true},
-  {"id": 90104, "name": "MappingCountriesStart", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90105, "name": "MappingCountriesFinish", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90106, "name": "MappingLocalitiesStart", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90107, "name": "MappingLocalitiesFinish", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90108, "name": "MappingLocalitiesOfSpecifiedCountryStart", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90109, "name": "MappingLocalitiesOfSpecifiedCountryFinish", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90110, "name": "MappingLocalityZonesStart", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90110, "name": "MappingLocalityZonesFinish", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90111, "name": "MappingLocalityZonesOfSpecifiedCountryStart", "level": "Information", "source": "LocationMapper", "isException": false},
-  {"id": 90112, "name": "MappingLocalityZonesOfSpecifiedCountryFinish", "level": "Information", "source": "LocationMapper", "isException": false},
-
-  {"id": 90200, "name": "MergingAccommodationsDataStart", "level": "Information", "source": "AccommodationDataMerger", "isException": false},
-  {"id": 90201, "name": "MergingAccommodationsDataFinish", "level": "Information", "source": "AccommodationDataMerger", "isException": false},
-  {"id": 90202, "name": "MergingAccommodationsDataCancel", "level": "Information", "source": "AccommodationDataMerger", "isException": false},
-  {"id": 90203, "name": "MergingAccommodationsDataError", "level": "Error", "source": "AccommodationDataMerger", "isException": true},
-
-  {"id": 90300, "name": "PreloadingAccommodationsStart", "level": "Information", "source": "AccommodationPreloader", "isException": false},
-  {"id": 90301, "name": "PreloadingAccommodationsFinish", "level": "Information", "source": "AccommodationPreloader", "isException": false},
-  {"id": 90302, "name": "PreloadingAccommodationsCancel", "level": "Information", "source": "AccommodationPreloader", "isException": false},
-  {"id": 90303, "name": "PreloadingAccommodationsError", "level": "Error", "source": "AccommodationPreloader", "isException": true},
-
-  {"id": 90400, "name": "ConnectorClientError", "level": "Error", "source": "ConnectorClient", "isException": true},
-  
-  {"id": 90500, "name": "SameAccommodationInOneSupplierError", "level": "Error", "source": "AccommodationMapper", "isException": false},
-  {"id": 90501, "name": "EmptyCoordinatesInAccommodation", "level": "Error", "source": "AccommodationMapper", "isException": false}
-]
-```
-
 ## osaka
 
 ```json
@@ -240,4 +242,4 @@
  ]
 ```
 
-**Updated on: 4/21/2021 11:42:34 AM**
+**Updated on: 4/23/2021 5:51:19 AM**
